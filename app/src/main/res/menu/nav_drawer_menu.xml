@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/group"
+            android:icon="@drawable/groupicon"
+            android:title="Group" />
+        <item
+            android:id="@+id/fixture"
+            android:icon="@drawable/fixturicon"
+            android:title="Fixtures" />
+        <item
+            android:id="@+id/team"
+            android:icon="@drawable/teamicon"
+            android:title="Team" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/abouticon"
+            android:title="About" />
+    </group>
+</menu>

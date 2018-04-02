@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232727188506",
+    "firebase_url": "https://fifa2018-c4916.firebaseio.com",
+    "project_id": "fifa2018-c4916",
+    "storage_bucket": "fifa2018-c4916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232727188506:android:1d21910f1f0c5255",
+        "android_client_info": {
+          "package_name": "com.example.kavi.fifaworldcup2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232727188506-3ccse0buh1p94php3mf6jj93f8fmcb4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kavi.fifaworldcup2018",
+            "certificate_hash": "5a2a651e0fa9fe40417d21727a373f367a0b80a5"
+          }
+        },
+        {
+          "client_id": "232727188506-rh8r6av608ufr3ofiimiil9kphm1t8qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjgK0Q77hq6xrgmkVskeGndUUJUtN6z1Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232727188506-rh8r6av608ufr3ofiimiil9kphm1t8qa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

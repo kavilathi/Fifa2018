@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/group_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="GROUP A"/>
+    <View
+        android:id="@+id/line_separator_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/group_title_text"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:id="@+id/group_groupA_match1_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_separator_view">
+
+        <ImageView
+            android:id="@+id/group_team1_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/russia"/>
+        <TextView
+            android:id="@+id/group_team1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/group_team1_image"
+            android:text="Russia"/>
+        <TextView
+            android:id="@+id/first_vs_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="vs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/group_team11_image"
+            android:text="Saudi Arabia"/>
+        <ImageView
+            android:id="@+id/group_team11_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/saudiarabia"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_groupA_match1_relative_layout">
+        <TextView
+            android:id="@+id/group_groupA__match1_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="14 JUN, 5:00 PM"/>
+
+        <TextView
+            android:id="@+id/layout_groupA_match1_stadium_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/group_groupA__match1_time_text"
+            android:text="Luzhniki Stadium Moscow"/>
+
+        <ImageView
+            android:id="@+id/layout_groupA_match1_stadium_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/layout_groupA_match1_stadium_text"
+            android:src="@drawable/luzhniki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_groupA_match1_stadium_image"
+            android:padding="10dp"
+            android:text="@string/group_A_day1_stadium"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

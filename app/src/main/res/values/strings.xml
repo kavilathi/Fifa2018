@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fifa World Cup 2018</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Group</item>
+        <item>Fixtures</item>
+        <item>Team</item>
+        <item>About</item>
+    </string-array>
+    <string name="group_A_day1_stadium">Luzhniki Stadium, is the national stadium of Russia, located in its capital, Moscow. Its total seating capacity of 81,000 makes it the largest football stadium in Russia and one of the largest stadiums in Europe</string>
+</resources>
